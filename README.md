@@ -4,7 +4,10 @@
 
 **TV Analog Horror · 纯 Python 终端游戏**
 
-## 快速开始
+没有图形界面。没有声音文件。没有外部依赖。
+只有你的终端、你的想象力、和一台不听话的电视机。
+
+## 🎮 快速开始
 
 ```bash
 git clone https://github.com/LiGuo-666-jpg-bit/game-horror.tv.git
