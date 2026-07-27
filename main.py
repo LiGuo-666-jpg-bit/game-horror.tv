@@ -10,6 +10,15 @@ import time
 import sys
 import os
 
+# ── 导入预告片模块 ──
+try:
+    from trailer import show_trailer
+except ImportError:
+    # 如果 trailer.py 不存在，定义空函数跳过
+    def show_trailer():
+        pass
+
+
 # ═══════════════════════════════════════════════════════════
 #  颜色系统（全部内联字符串，不存在属性缺失问题）
 # ═══════════════════════════════════════════════════════════
